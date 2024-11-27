@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop API</title>
+    <link rel="stylesheet" href = "MatchingGame.css">
+    <script src="MatchingGame.js" defer></script> 
+</head>
+<body>
+    <header><h1>Drag and Drop Api</h1></header>
+    <div class="draggableContainer">
+    <div id="img1" class="draggable" draggable="true" data-description="Tiktok">
+     <img src ="tiktok.jpg" alt="Image 1">
+     </div>
+     
+    <div id="img2" class="draggable" draggable="true" data-description="Instagram">
+      <img src="insta.jpg" alt="Image 2">
+    </div>
+    
+    <div id="img3" class="draggable" draggable="true" data-description="Twitter">
+     <img src="twitter.jpg" alt="Image 3">
+    </div>
+    
+    <div id="img4" class="draggable" draggable="true" data-description="Snapchat">
+      <img src="snapchat.jpg" alt="Image 4">
+    </div>
+    
+    <div id="img5" class="draggable" draggable="true" data-description="Facebook">
+      <img src="facebook.jpg" alt="Image 5"
+    </div>
+     </div>
+     <div class="droppableContainer">
+        <div id="desc1" class="droppable" data-description="Tiktok">Tiktok</div>
+        <div id="desc2" class="droppable"data-description="Instagram">Instagram</div>
+        <div id="desc3" class="droppable"data-description="Twitter">X</div>
+        <div id="desc4" class="droppable"data-description="Snapchat">Snapchat</div>
+        <div id="desc5" class="droppable"data-description="Facebook">Facebook</div>
+        
+        <div class="remarks">
+          <p id="remarks">Match the Images with their descriptions!</p>
+          </div>
+        
+        <div id="score-board">
+          <p>Score: <span id="score">0</span></p>
+        </div>
+     </div>
+</body>
+</html>
